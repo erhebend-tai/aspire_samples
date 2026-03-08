@@ -9,5 +9,7 @@
   <Project Path="AspireShop.CatalogDbManager/AspireShop.CatalogDbManager.csproj" />
   <Project Path="AspireShop.CatalogService/AspireShop.CatalogService.csproj" />
   <Project Path="AspireShop.Frontend/AspireShop.Frontend.csproj" />
+  <Project Path="AspireShop.NlpCache/AspireShop.NlpCache.csproj" />
+  <Project Path="AspireShop.NlpCache.Tests/AspireShop.NlpCache.Tests.csproj" />
   <Project Path="AspireShop.ServiceDefaults/AspireShop.ServiceDefaults.csproj" />
 </Solution>

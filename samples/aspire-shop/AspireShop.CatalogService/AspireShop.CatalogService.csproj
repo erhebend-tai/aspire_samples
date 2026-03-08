@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspireShop.CatalogDb\AspireShop.CatalogDb.csproj" />
+    <ProjectReference Include="..\AspireShop.NlpCache\AspireShop.NlpCache.csproj" />
     <ProjectReference Include="..\AspireShop.ServiceDefaults\AspireShop.ServiceDefaults.csproj" />
   </ItemGroup>
 
