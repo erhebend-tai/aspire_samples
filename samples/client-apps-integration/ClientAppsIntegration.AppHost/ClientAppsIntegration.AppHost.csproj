@@ -1,4 +1,4 @@
-<Project Sdk="Aspire.AppHost.Sdk/13.1.0">
+<Project Sdk="Aspire.AppHost.Sdk/13.4.0">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -9,6 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="13.4.4" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.9" />
     <ProjectReference Include="..\ClientAppsIntegration.ApiService\ClientAppsIntegration.ApiService.csproj" />
     <ProjectReference Include="..\ClientAppsIntegration.WinForms\ClientAppsIntegration.WinForms.csproj" />
     <ProjectReference Include="..\ClientAppsIntegration.WPF\ClientAppsIntegration.WPF.csproj" />
